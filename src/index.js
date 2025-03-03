@@ -29,3 +29,9 @@ document.querySelectorAll(".product-btn").forEach((button, index) => {
         alert(`You clicked on Product ${index + 1}. More details coming soon!`);
     });
 });
+const menuToggle = document.getElementById("menuToggle");
+  const navMenu = document.getElementById("navMenu");
+
+  menuToggle.addEventListener("click", () => {
+    navMenu.classList.toggle("translate-x-0");
+  });

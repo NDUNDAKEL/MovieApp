@@ -9,14 +9,14 @@
 <body class="bg-gray-100">
   
   <header>
-    <nav class="flex bg-black p-3 w-full justify-center items-center">
+    <nav class="flex bg-black p-3 w-full md:flex-row md:space-y-3 justify-center items-center">
       <div class="flex flex-row justify-center items-end h-full space-x-3">
         <img src="./assets/leaf.jpeg" class="h-20 w-20 rounded-full" />
         <p id="headerText" class="text-white italic transition-all duration-500 ease-in-out">
           <span class="text-yellow-400 font-bold">KELIFE</span> Making Life Easier
         </p>
       </div>
-      <ul class="w-full flex p-3 flex-row justify-between">
+      <ul class="w-full flex p-3 md:flex-col flex-row justify-between">
         <li class="text-white text-lg font-bold hover:text-yellow-400">
           <a href="./src/index.js" class="text-yellow-400">Home</a>
         </li>
@@ -78,7 +78,10 @@
   </main>
 
   <!-- JavaScript -->
-
+  <footer class="bg-black w-full h-[300px] flex items-center justify-center mt-12">
+    <p class="text-white text-xl">&copy; 2025 Kelife</p>
+  </footer>
+  
 
 </body>
 <script src="./src/index.js" ></script>
