@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <title>KELIFE - Making Life Easier</title>
+</head>
+<body class="bg-gray-100">
+  
+  <header>
+    <nav class="flex bg-black p-3 w-full justify-center items-center">
+      <div class="flex flex-row justify-center items-end h-full space-x-3">
+        <img src="../assets/leaf.jpeg" class="h-20 w-20 rounded-full" />
+        <p id="headerText" class="text-white italic transition-all duration-500 ease-in-out">
+          <span class="text-yellow-400 font-bold">KELIFE</span> Making Life Easier
+        </p>
+      </div>
+      <ul class="w-full flex p-3 flex-row justify-between">
+        <li class="text-white text-lg font-bold hover:text-yellow-400">
+          <a href="index.html" class="text-yellow-400">Home</a>
+        </li>
+        <li class="text-white text-lg font-bold hover:text-yellow-400">
+          <a href="about.html">About</a>
+        </li>
+        <li class="text-white text-lg font-bold hover:text-yellow-400">
+          <a href="contact.html">Contact Us</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Dynamic Welcome Message -->
+    <div class="bg-orange-400 p-4 text-center">
+      <h2 id="welcomeMessage" class="text-2xl text-white font-bold">Welcome to KELIFE!</h2>
+      <p class="text-xl font-serif text-white">Making Life Easier</p>
+    </div>
+
+    <!-- Theme Toggle Button -->
+    <div class="text-center mt-4">
+      <button id="themeToggle" class="bg-blue-600 text-white p-2 rounded-lg">
+        Switch Theme 🌙
+      </button>
+    </div>
+
+    <!-- Product Section -->
+    <p class="text-center text-2xl font-bold text-black mt-6">Our Ready-Made Products</p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-6">
+      <!-- Product Cards -->
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden text-center p-4">
+        <img src="../assets/software3.jpeg" alt="Software 1" class="w-full h-[200px] object-cover rounded-lg">
+        <h2 class="text-lg font-bold mt-3">Mobile App</h2>
+        <p class="text-gray-600">React Native Apps for Nativeness..</p>
+        <button class="bg-orange-500 p-3 rounded-lg text-white hover:bg-blue-600 product-btn">
+          Learn More
+        </button>
+      </div>
+
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden text-center p-4">
+        <img src="../assets/network1.jpeg" alt="Software 2" class="w-full h-[200px] object-cover rounded-lg">
+        <h2 class="text-lg font-bold mt-3">Security</h2>
+        <p class="text-gray-600">We integrate Firewalls and add VPNs to organication Networks.</p>
+        <button class="bg-orange-500 p-3 rounded-lg text-white hover:bg-blue-600 product-btn">
+          Learn More
+        </button>
+      </div>
+
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden text-center p-4">
+        <img src="../assets/software1.jpeg" alt="Software 3" class="w-full h-[200px] object-cover rounded-lg">
+        <h2 class="text-lg font-bold mt-3">Web Apps 3</h2>
+        <p class="text-gray-600">A trusted organisation for robust web applications.</p>
+        <button class="bg-orange-500 p-3 rounded-lg text-white hover:bg-blue-600 product-btn">
+          Learn More
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <!-- JavaScript -->
+
+
+</body>
+<script src="index.js" ></script>
+</html>
