@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KELIFE - Making Life Easier</title>
+  <link href="src/output.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+  
+  <!-- Header -->
+  <header>
+    <nav class="flex bg-black p-3 w-full md:flex-row md:space-y-3 items-center">
+      <div class="flex flex-row justify-center items-end h-full space-x-3">
+        <img src="./assets/leaf.jpeg" class="h-20 w-20 rounded-full" />
+        <p id="headerText" class="text-white italic transition-all duration-500 ease-in-out">
+          <span class="text-yellow-400 font-bold">KELIFE</span> Making Life Easier
+        </p>
+      </div>
+      <ul class="w-full flex p-3 md:flex-col flex-row justify-between"></ul>
+      <p class="text-center text-xl text-white">HOME OF ENTERTAINMENT</p>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+
+  <main class="p-6">
+    <div class="max-w-3xl mx-auto bg-white shadow-lg rounded-lg p-6 text-center">
+      <img id="moviePoster" class="w-full h-[300px] object-cover rounded-lg" alt="Movie Poster">
+      <h2 id="movieTitle" class="text-2xl font-bold mt-3"></h2>
+      <p id="movieDescription" class="text-gray-600 mt-2"></p>
+      <p id="movieRuntime" class="text-gray-800 font-bold mt-2"></p>
+      <p id="movieShowtime" class="text-gray-800 font-bold mt-2"></p>
+      <p id="availableTickets" class="text-red-500 font-bold mt-2"></p>
+      <button id="bookButton" class="bg-orange-500 p-3 rounded-lg text-white hover:bg-blue-600 mt-4">
+        Purchase Now
+      </button>
+    </div>
+  </main>
+  <script src="about.js"></script>
+  
+  <!-- Footer -->
+  <footer class="bg-black w-full h-[300px] flex items-center justify-center mt-12">
+    <p class="text-white text-xl">&copy; 2025 Kelife</p>
+  </footer>
+
+  <!-- External JavaScript -->
+  <script src="movies.js"></script>
+
+</body>
+</html>
