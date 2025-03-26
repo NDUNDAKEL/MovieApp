@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", function () {
               }
             } catch (error) {
               console.error("Error deleting ticket:", error);
-              alert("Something went wrong! ❌");
+          
             }
           });
         });
